@@ -1,6 +1,3 @@
-# arrayManipulation-HackerRank
-
-```javascript
 function arrayManipulation(n, queries) {
   var difArr = new Array(n+1).fill(0); // Здесь сразу создаю difference array так как оригинальный массив и так заполнен нулями
   var max = 0;
@@ -16,4 +13,3 @@ function arrayManipulation(n, queries) {
   }
   return max;
 }
-```
